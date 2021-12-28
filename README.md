@@ -4,6 +4,8 @@
 
 Athenaeum is a web application that uses Google Books API to provide books as search results. For logged in users, it provides more information per each book and if the book happens to have a online readable version available then it is shown inside an embedded viewer. If the user is not logged in, it shows the search results as a list with very less information.
 
+---
+
 ##### Project Structure:
     project/
     ├── static/
@@ -31,7 +33,9 @@ Athenaeum is a web application that uses Google Books API to provide books as se
     ├── manage.py
     ├── README.md
     └── requirements.txt
-    
+
+---
+
 ##### Screenshots
 
 * Search books without logging in:
@@ -46,6 +50,8 @@ Athenaeum is a web application that uses Google Books API to provide books as se
 * Search book by ISBN no:
     ![Search by ISBN](https://user-images.githubusercontent.com/66861616/147540383-3479cc8e-d3d4-4749-a1e5-98450f01b18a.gif)
 
+---
+
 ##### Built with
 * Flask
 * sqlite3
@@ -55,6 +61,7 @@ Athenaeum is a web application that uses Google Books API to provide books as se
 * jQuery
 * Figma (UI design)
 
+---
+
 ##### Future scopes:
-1. Add pagination
-2. Add recommendation system
+1. Add recommendation system
