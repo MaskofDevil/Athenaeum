@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block script %}
+    <script type="text/javascript">
+        google.books.load()
+
+        isbn = '{{ isbn }}'
+
+        function initialize() {
+            var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'))
+            viewer.load('ISBN:' + isbn)
+        }
+
+        google.books.setOnLoadCallback(initialize)
+    </script>
+{% endblock %}
+
+{% block title %}
+    : Book Viewer
+{% endblock %}
+
+{% block main %}
+    {% if isbn %}
+        <div id="viewerCanvas"></div>
+    {% elif description %}
+        <div>
+            <p>{{ description }}</p>
+        </div>
+    {% else %}
+        <img src="../static/img/unable-to-load.png" alt="Unable to load the book">
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,79 @@
+/* https://github.com/MaskofDevil */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+main .form-control
+{
+    display: inline-block;
+    width: auto;
+}
+
+main
+{
+    overflow-x: auto;
+    text-align: center;
+}
+
+main img
+{
+    max-width: 100%;
+}
+
+.dropdown
+{
+    margin-right: 70px;
+}
+
+.card-body img
+{
+    max-width: 40%;
+}
+
+#viewerCanvas
+{
+    width: 100%; 
+    height: 500px;
+}
+
+.round-right-custom
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.round-left-custom
+{
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px)
+{
+    #book
+    {
+        display: none;
+    }
+    td h5
+    {
+        font-size: 14px;
+    }
+    td p
+    {
+        font-size: 12px;
+    }
+}

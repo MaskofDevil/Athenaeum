@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    : Error
+{% endblock %}
+
+{% block main %}
+    <img alt="{{ top }}" class="border" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://error404.fun/img/full-preview/2x/28.png" title="{{ top }}">
+{% endblock %}

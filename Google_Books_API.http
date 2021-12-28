@@ -1,0 +1,11 @@
+// Search by title(10 books)
+https://www.googleapis.com/books/v1/volumes?q=intitle:potter&maxResults=10
+
+// Search by author(10 books)
+https://www.googleapis.com/books/v1/volumes?q=inauthor:knuth&maxResults=10
+
+// Search by title and author(10 books)
+https://www.googleapis.com/books/v1/volumes?q=intitle:potter+inauthor:rowling&maxResults=10
+
+// Search by ISBN no.(passes one book)
+https://www.googleapis.com/books/v1/volumes?q=isbn:0439324661
