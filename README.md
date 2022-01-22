@@ -36,18 +36,16 @@ Athenaeum is a web application that uses Google Books API to provide books as se
 
 ---
 
-##### Screenshots
-
-* Search books without logging in:
+## Search books without logging in:
     ![Search without Login](https://user-images.githubusercontent.com/66861616/147540252-7b98f896-3b08-4c96-8680-93a149d4cf6f.gif)
 
-* Search books by name and read:
+## Search books by name and read:
     ![Search by name and read](https://user-images.githubusercontent.com/66861616/147540314-24c8b21b-07a5-4090-88dd-88a51053bf76.gif)
 
-* Search books by author:
+## Search books by author:
     ![Search by author](https://user-images.githubusercontent.com/66861616/147540345-6f99a666-c982-4dee-9fe0-b6cda9548d11.gif)
 
-* Search book by ISBN no:
+## Search book by ISBN no:
     ![Search by ISBN](https://user-images.githubusercontent.com/66861616/147540383-3479cc8e-d3d4-4749-a1e5-98450f01b18a.gif)
 
 ---
@@ -65,3 +63,5 @@ Athenaeum is a web application that uses Google Books API to provide books as se
 
 ##### Future scopes:
 1. Add recommendation system
+
+### ⭐ Star this repo
